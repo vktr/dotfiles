@@ -19,6 +19,9 @@ font pango:monospace 8
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
+# dunst
+exec --no-startup-id /usr/bin/dunst
+
 # lock after inactivity
 exec_always --no-startup-id xset s 300 5
 exec_always --no-startup-id xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock
