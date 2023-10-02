@@ -1,0 +1,10 @@
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/viktor/.local/share/JetBrains/Toolbox/scripts"
+
+# local bin
+export PATH="$HOME/.local/bin:$PATH"
+
+# editor
+export EDITOR=nvim
