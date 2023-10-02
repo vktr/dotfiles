@@ -15,6 +15,9 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:DejaVu Sans Mono 8
 
+# set resolution
+exec --no-startup-id xrandr --output DP-4 --mode 5120x1440 --rate 120
+
 # dunst
 exec --no-startup-id /usr/bin/dunst
 
