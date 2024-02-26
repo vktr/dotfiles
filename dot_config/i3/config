@@ -21,6 +21,9 @@ exec --no-startup-id xrandr --output DP-4 --mode 2560x1440 --rate 120
 # dunst
 exec --no-startup-id /usr/bin/dunst
 
+# polkit gnome
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 # lock after inactivity
 exec_always --no-startup-id xset s 300 5
 exec_always --no-startup-id xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock
