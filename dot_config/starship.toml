@@ -1,0 +1,10 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+# A minimal left prompt
+format = """$python$directory$character"""
+
+[character]
+success_symbol = '[❯](bold green)'
+

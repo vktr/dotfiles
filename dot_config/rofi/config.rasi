@@ -9,8 +9,6 @@ configuration {
     sidebar-mode:        false;
 }
 
-@import "~/.config/rofi/colors.rasi"
-
 window {
     background-color: @background;
     border:           0;
